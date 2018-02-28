@@ -299,7 +299,7 @@ void calcMixColMask(){
 	Mask[6]	=	mul_02[Mask[0]]	^ mul_03[Mask[1]]   ^Mask[2]	^Mask[3];
 	Mask[7]	=	Mask[0]	^ mul_02[Mask[1]]	^mul_03[Mask[2]]	^Mask[3];
 	Mask[8]	=	Mask[0]	^ Mask[1]	^mul_02[Mask[2]]	^mul_03[Mask[3]];
-	Mask[9]	=	mul_03[Mask[0]]	^ Mask[1]	^Mask[2]	^mul _02[Mask[3]];
+	Mask[9]	=	mul_03[Mask[0]]	^ Mask[1]	^Mask[2]	^mul_02[Mask[3]];
 	
 }
 void calcSbox_masked(){
@@ -371,18 +371,19 @@ void aes128(uint8_t* state)
 		remask(state,Mask[0],Mask[1],Mask[2],Mask[3],Mask[5],Mask[5],Mask[5],Mask[5]); 
 		mixColumns(state);
         	addRoundKey_masked(state, i);
+    }
 // shuffling
 
-   if(rand()%2 == 1){
-			subBytes_masked_rand(state,hiding_sequence);
+  // if(rand()%2 == 1){
+			//subBytes_masked_rand(state,hiding_sequence);
 			subBytes_masked(state);
 			shiftRows(state);
-		}
-		else{
-			shiftRows(state);
-		        subBytes_masked_rand(state,hiding_sequence);
-			subBytes_masked(state);
-		}
+	//	}
+//		else{
+//			shiftRows(state);
+//		        subBytes_masked_rand(state,hiding_sequence);
+//			subBytes_masked(state);
+//		}
 
     
     addRoundKey_masked(state, 10);
