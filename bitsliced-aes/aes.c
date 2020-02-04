@@ -5,8 +5,12 @@
  * Secure Embedded Systems Lab
  *
  * Copyright (C) 2017 Virginia Tech
+ * If you use our code in your publications, please cite the paper below:
+ * Yao, Yuan, Mo Yang, Conor Patrick, Bilgiday Yuce, and Patrick Schaumont. "Fault-assisted side-channel 
+ * analysis of masked implementations." In 2018 IEEE International Symposium on Hardware Oriented Security 
+ * and Trust (HOST), pp. 57-64. IEEE, 2018.
  *
- * Written in 2017 by Conor Patrick. 
+ * Written in 2017 by Conor Patrick, Yuan Yao, Mo Yang. 
  *
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
