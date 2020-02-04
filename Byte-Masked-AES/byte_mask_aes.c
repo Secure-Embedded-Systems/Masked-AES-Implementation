@@ -9,6 +9,11 @@
  * Written in 2017 by Yuan Yao. This masked implementation refers to 
  * https://github.com/ermin-sakic/smartcard-aes-fw.
  *
+ * If you use our code in your publications, please cite the paper below:
+ * Yao, Yuan, Mo Yang, Conor Patrick, Bilgiday Yuce, and Patrick Schaumont. "Fault-assisted side-channel 
+ * analysis of masked implementations." In 2018 IEEE International Symposium on Hardware Oriented Security 
+ * and Trust (HOST), pp. 57-64. IEEE, 2018.
+ *
  * This is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 3 of the License, or
