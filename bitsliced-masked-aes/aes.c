@@ -1,3 +1,33 @@
+
+/*
+ *
+ * Virginia Tech
+ * Secure Embedded Systems Lab
+ *
+ * Copyright (C) 2017 Virginia Tech
+ * If you use our code in your publications, please cite the paper below:
+ * Yao, Yuan, Mo Yang, Conor Patrick, Bilgiday Yuce, and Patrick Schaumont. "Fault-assisted side-channel 
+ * analysis of masked implementations." In 2018 IEEE International Symposium on Hardware Oriented Security 
+ * and Trust (HOST), pp. 57-64. IEEE, 2018.
+ *
+ * Written in 2017 by Conor Patrick, Yuan Yao, Mo Yang. 
+ *
+ * This is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This software is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, see <http://www.gnu.org/licenses/>.
+ *
+ */
+
+
 //#include <stdio.h>//mo debug: for printf
 //#include <stdlib.h> //mo debug: for exit(-1)
 #include <string.h>
